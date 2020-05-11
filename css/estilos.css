@@ -16,7 +16,7 @@ a {
   transition: 0.5s;
 }
 a:hover {
-  background-color: black;
+  background-color: grey;
 }
 .menu ul {
   display: flex;
@@ -29,7 +29,7 @@ a:hover {
   list-style:none;
 }
 .bg-image {
-  background-image: url('//2.bp.blogspot.com/-A9ed4AcXqKQ/VbesfrwqVII/AAAAAAAAW4s/t8uBSAQIjF8/s1600/1-tumblr_njlqclFisw1qze3hdo1_r2_500.gif');
+  background-image: url('/images/bg.gif');
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(7px);
