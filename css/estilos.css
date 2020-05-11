@@ -29,7 +29,7 @@ a:hover {
   list-style:none;
 }
 .bg-image {
-  background-image: url('https://github.com/matricce/imersaocss/blob/master/images/bg.gif');
+  background-image: url('https://github.com/matricce/imersaocss/blob/master/images/bg.gif?raw=true');
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(7px);
