@@ -17,7 +17,7 @@ body {
   background-size: cover;
 }
 .bg {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(7px);
   height: 100%;
 }
 /*para dispositivos com tela maior que 400px*/
@@ -67,10 +67,11 @@ a:hover {
   background-color: black;
 }
 .myinfo{
-  background-color: rgba(0,0,0, 0.4);
+  /* background-color: rgba(0,0,0, 0.4); */
   border: 3px solid;
   width: 310px;
   min-width: 310px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
 }
 .site-title,
 .site-subtitle{
@@ -79,4 +80,17 @@ a:hover {
 }
 .site-subtitle{
   font-style: italic;
+}
+.img-profile {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 2px rgba(255, 255, 255, 0.129);
+  transition:0.5s;
+}
+.img-profile:hover {
+  border: solid 2px rgb(255, 255, 255);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6))
 }
